@@ -92,12 +92,50 @@
 						   size="25" placeholder="Address">
 					<input name="Mail" type="text" maxlength="30"
 						   size="25" placeholder="Mail">
-					<input name="Phone" type="text" maxlength="30"
+                    <input name="Phone" type="text" maxlength="30"
 						   size="25" placeholder="Phone number">
-					<input type="submit"
-						   value="Submit">
-					<input type="reset"
-						   value="Clear">
+                    <select name="strain">
+                        <option selected>Purple Haze</option>
+                        <option >Super Lemon Haze</option>
+                        <option >Lemon Haze</option>
+                        <option >God's Gift</option>
+                        <option >Amnesia Haze</option>
+                    </select>
+                    <div>
+                        <textarea name="Additional" rows="10" cols="36" maxlength="200"
+                                         placeholder="Additional information"></textarea>
+                    </div>
+                    <div>
+                        <p>Pay by: <br>
+                            <label>
+                                Cash
+                                <input name="payment-method" type="radio" value="cash" checked>
+                            </label>
+                            <label>
+                                Credit card
+                                <input name="payment-method" type="radio" value="creditcard">
+                            </label>
+                            <label>
+                                Bitcoin
+                                <input name="payment-method" type="radio" value="bitcoin">
+                            </label>
+                        </p>
+                    </div>
+                    <div>
+                        <label>
+                            I am above 18 years old
+                            <input name="payment-method" type="checkbox" value="age-limit">
+                        </label>
+                        <label>
+                            I read and accept the terms and conditions of Ember Shop Ltc.
+                            <input name="payment-method" type="checkbox" value="terms-and-conditions">
+                        </label>
+                    </div>
+                    <input type="submit"
+                               value="Submit">
+                    <input type="reset"
+                               value="Clear">
+
 
 				</form>
 			</div>
