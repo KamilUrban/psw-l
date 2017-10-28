@@ -1,0 +1,12 @@
+#navigation_table{
+	margin-right: 100px; width: 350px; border-radius: 10px;
+}
+
+#topbar-div img {
+	padding:0; width: 100%; height:700px; margin-bottom: 20px;
+}
+
+#welcome_text-div{
+	border: 2px solid black;
+	border-radius: 10px;
+}

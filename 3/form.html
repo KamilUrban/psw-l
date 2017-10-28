@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+
+<head>
+	<title>FORM</title>
+	<meta charset = "utf-8">
+	<link rel="stylesheet" type="text/css"
+        href="styles.css">
+</head>
+
+<body>
+<div class="form-main">
+	<div id="topbar-div" class="form-topbar">
+		<h1> Ember </h1>
+		<h2> The greatest Fire store </h2>
+		<img  src="images/fire-image-0.jpg" alt="Fireplace image">
+	</div>
+	<div id="content-div" class="form-content">
+		<div id="navigation_table-div">
+			<table border="10" id="navigation_table">
+				<thead id="navigation_table-head">
+				<tr>
+					<th>
+						Navigation
+					</th>
+				</tr>
+				<tr>
+					<td>
+						<hr class="form-nav-table-hr"/>
+					</td>
+				</tr>
+				</thead>
+
+				<tbody id="navigation_table-body">
+				<tr>
+					<td>
+						<a href="index.html#main_page-blue_fire">Blue Fire</a>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<a href="index.html#main_page-red_fire">Red Fire</a>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<a href="index.html#main_page-yellow_fire">Yellow Fire</a>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<a href="index.html#main_page-green_fire">Green Fire</a>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<a href="pricing.html">Fire strains pricing</a>
+					</td>
+				</tr>
+				</tbody>
+
+				<tfoot id="navigation_table-foot">
+				<tr>
+					<td>
+						<hr class="form-nav-table-hr"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Contact me
+					</td>
+				</tr>
+				</tfoot>
+
+
+			</table>
+		</div>
+		<div id="main-page-content" class="form-main-content">
+			<div id="order_form_div">
+				<h2> place your order here</h2>
+				<form method="post">
+					<input type="hidden" name="subject"
+						   value="order">
+					<input type="hidden" name="redirect"
+						   value="order-placed.html">
+					<input name="Surname" type="text" maxlength="30"
+						   size="25" placeholder="Surname">
+					<input name="Name" type="text" maxlength="30"
+						   size="25" placeholder="Name">
+					<input name="Address" type="text" maxlength="30"
+						   size="25" placeholder="Address">
+					<input name="Mail" type="text" maxlength="30"
+						   size="25" placeholder="Mail">
+                    <input name="Phone" type="text" maxlength="30"
+						   size="25" placeholder="Phone number">
+                    <select name="strain">
+                        <option selected>Purple Haze</option>
+                        <option >Super Lemon Haze</option>
+                        <option >Lemon Haze</option>
+                        <option >God's Gift</option>
+                        <option >Amnesia Haze</option>
+                    </select>
+                    <div>
+                        <textarea name="Additional" rows="10" cols="36" maxlength="200"
+                                         placeholder="Additional information"></textarea>
+                    </div>
+                    <div>
+                        <p>Pay by: <br>
+                            <label>
+                                Cash
+                                <input name="payment-method" type="radio" value="cash" checked>
+                            </label>
+                            <label>
+                                Credit card
+                                <input name="payment-method" type="radio" value="creditcard">
+                            </label>
+                            <label>
+                                Bitcoin
+                                <input name="payment-method" type="radio" value="bitcoin">
+                            </label>
+                        </p>
+                    </div>
+                    <div>
+                        <label>
+                            I am above 18 years old
+                            <input name="payment-method" type="checkbox" value="age-limit">
+                        </label>
+                        <label>
+                            I read and accept the terms and conditions of Ember Shop Ltc.
+                            <input name="payment-method" type="checkbox" value="terms-and-conditions">
+                        </label>
+                    </div>
+                    <input type="submit"
+                               value="Submit">
+                    <input type="reset"
+                               value="Clear">
+
+
+				</form>
+			</div>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>

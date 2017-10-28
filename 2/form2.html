@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+
+<head>
+	<title>Second personal form</title>
+	<meta charset = "utf-8">
+</head>
+
+<body>
+<div style="margin: auto;position: absolute;  top: 0; left: 0; bottom: 0; right: 0; padding:10px">
+
+        <section>
+            <div id="main-page-content" style="position: relative; flex-grow:1;">
+                <div id="form_div" style="width: 50%; margin: auto">
+                    <h2> Additional information </h2>
+                    <form method = "post">
+                        <p>
+                            <label>Your favourite color:
+                                <input type = "color" autofocus/>
+                            </label>
+                        </p>
+                        <p>
+                            <label>Month:
+                                <input type = "month" /> (yyyy-mm)
+                            </label>
+                        </p>
+                        <p>
+                            <label>How much do you like our site:
+                                0 <input type = "range"
+                                         min = "0"
+                                         max = "10"
+                                         value = "5" /> 10
+                            </label>
+                        </p>
+                        <p>
+                            <label>Search Query:
+                                <input type = "search" placeholder = "search query" />
+                            </label>
+                        </p>
+                        <p>
+                            <label>Github URL:
+                                <input type = "url"
+                                       placeholder = "Your github" />
+                            </label>
+                        </p>
+                        <p>
+                            <input type = "submit" value = "Submit" />
+                            <input type = "reset" value = "Clear" />
+                        </p>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    <div id="footer-div" style="position: relative; margin-top: 150px; bottom: 0; left: 0; right: 0; text-align: center;">
+        <footer>
+            <hr style="border: 1px solid #555"/>
+            <div id="author_info-div">
+                <details>
+                    <summary>
+                        Created by: <mark> Kamil Urban </mark>
+                    </summary>
+
+                    All rights to the Ember<sup>&copy;</sup> website are reserved by
+                    <strong>
+                        Kamil Urban Software Development & Outsourcing <sup>&reg;</sup>
+                    </strong>
+
+                    <aside>
+                        <h5>Kamil Urban</h5>
+                        <p>Follow me on <a href="https://github.com/KamilUrban">github</a></p>
+                    </aside>
+
+                </details>
+            </div>
+            <div id="contact-div">
+                <p>werehouse availability<meter min="0" value="65" max="100"></meter></p>
+                <p>Contact me <a href="mailto:kamil.urban042@gmail.com">&gt; here</a>.</p>
+                <img src="images/fire-icon-0.png" alt="fire icon" style="position:absolute; bottom: 0; right:0">
+                <img src="images/fire-icon-0.png" alt="fire icon" style="position:absolute; bottom: 0; left:0">
+            </div>
+        </footer>
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+         .nav             { font-weight: bold;
+                           border: 2px solid RoyalBlue;
+                           text-align: center;
+                           width: 10em;
+                         }
+         .nav:hover li   { display: block; }
+         .nav li       {   border-top: 2px solid RoyalBlue;
+                           width: 10em;
+                           color: black; 
+                            display: none;
+                        }
+    
+
+         
+     .nav2             {
+                           font-weight: bold;
+                           text-align: center;
+                        }
+    .nav2 ul
+                   { 
+                           display: none;
+                         }
+    .nav2:hover ul    { display: block; }
+    .nav2 ul li       { 
+        border: 2px solid RoyalBlue;
+        width: 10em;
+        background-color: red;
+        color: black; 
+    }         
+ 
+         
+     .nav3             {
+                           font-weight: bold;
+                           text-align: center;
+                        }
+    .nav3 ul
+                   { 
+                           display: none;
+                         }
+    .nav3:hover ul    { display: block; }
+    .nav3 ul li       { 
+        border: 2px solid RoyalBlue;
+        width: 10em;
+        background-color: red;
+        color: black; 
+    }         
+ 

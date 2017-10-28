@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <title>First personal form</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+<form method="post" autocomplete="on">
+    <p>
+        <label>
+            <input name="Name" type="text" maxlength="30"
+                   size="25" placeholder="Name" autofocus>
+        </label>
+    </p>
+
+    <p>
+        <label>
+            <input name="Surname" type="text" maxlength="30"
+                   size="25" placeholder="Surname" required>
+        </label>
+    </p>
+
+    <p>
+        <label>Month of birth:
+            <input list="months"/>
+        </label>
+        <datalist id="months">
+            <option value="January"></option>
+            <option value="February"></option>
+            <option value="March"></option>
+            <option value="April"></option>
+            <option value="May"></option>
+            <option value="June"></option>
+            <option value="July"></option>
+            <option value="August"></option>
+            <option value="September"></option>
+            <option value="October"></option>
+            <option value="November"></option>
+            <option value="December"></option>
+        </datalist>
+    </p>
+
+    <p>
+        <label>Email:
+            <input type="email" required/> (name@domain.com)
+        </label>
+    </p>
+    <p>
+        <label>Tel:
+            <input type="tel"
+                   pattern="\d{3} \d{3} \d{3}"/>
+            ###-###-###
+        </label>
+    </p>
+
+    <p>
+        <input type="submit" value="Submit"/>
+        <input type="reset" value="Clear"/>
+    </p>
+</form>
+
+
+<div id="footer-div"
+     style="position: relative; margin-top: 150px; bottom: 0; left: 0; right: 0; text-align: center;">
+    <footer>
+        <hr style="border: 1px solid #555"/>
+        <div id="author_info-div">
+            <details>
+                <summary>
+                    Created by: <mark> Kamil Urban </mark>
+                </summary>
+
+                    All rights to the Ember<sup>&copy;</sup> website are reserved by
+                    <strong>
+                        Kamil Urban Software Development & Outsourcing <sup>&reg;</sup>
+                    </strong>
+
+                    <aside>
+                        <h5>Kamil Urban</h5>
+                        <p>Follow me on <a href="https://github.com/KamilUrban">github</a></p>
+                    </aside>
+
+            </details>
+        </div>
+        <div id="contact-div">
+            <p>werehouse availability<meter min="0" value="65" max="100"></meter></p>
+            <p>Contact me <a href="mailto:kamil.urban042@gmail.com">&gt; here</a>.</p>
+            <img src="images/fire-icon-0.png" alt="fire icon" style="position:absolute; bottom: 0; right:0">
+            <img src="images/fire-icon-0.png" alt="fire icon" style="position:absolute; bottom: 0; left:0">
+        </div>
+    </footer>
+</div>
+</body>
+</html>
