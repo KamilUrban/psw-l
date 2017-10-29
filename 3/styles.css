@@ -1,129 +1,141 @@
-@media all{
-.em-text{
-    font-size: 2em;
-    margin-right: 200px;
-}
+@media all {
+    .em-text {
+        font-size: 2em;
+        margin-right: 200px;
+    }
 
-.px-text{
-    font-size: 10px;
-    margin-right: 200px;
-}
+    .px-text {
+        font-size: 10px;
+        margin-right: 200px;
+    }
 
-.pt-text{
-    font-size: 10pt;
-    margin-right: 200px;
-}
+    .pt-text {
+        font-size: 10pt;
+        margin-right: 200px;
+    }
 
-.proc-text{
-    font-size: 10%;
-    margin-right: 200px;
-}
+    .proc-text {
+        font-size: 10%;
+        margin-right: 200px;
+    }
 
-.back-color{
-    background-color: #CFF;
-}
+    .back-color {
+        background-color: #CFF;
+    }
 
-.back-img{
-    background-image: url("images/fire-image-1.jpg")
-}
+    .back-img {
+        background-image: url("images/fire-image-1.jpg")
+    }
 
-p {
-    color: white
-}
+    p {
+        color: white
+    }
 
-#main_page-yellow_fire{
-    background-image: url("images/fire-icon-0.png");
-    background-repeat: repeat;
+    #main_page-yellow_fire {
+        background-image: url("images/fire-icon-0.png");
+        background-repeat: repeat;
 
-}
+    }
 
-.back-attached {
-    background-image: url("images/fire-icon-0.png");
-    background-repeat: repeat;
-    background-attachment: fixed;
-}
+    .back-attached {
+        background-image: url("images/fire-icon-0.png");
+        background-repeat: repeat;
+        background-attachment: fixed;
+    }
 
-.back {
-    background: #CFF fixed center;
-}
+    .back {
+        background: #CFF fixed center;
+    }
 
+    .form-main {
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        padding: 10px;
+    }
 
+    .form-topbar {
+        position: relative;
+    }
 
+    .form-topbar h1 {
+        text-align: center;
+        color: darkred;
+    }
 
+    .form-topbar h2 {
+        text-align: center;
+        color: darkred;
+    }
 
-.form-main{
-    margin: auto;position: absolute;  top: 0; left: 0; bottom: 0; right: 0; padding:10px;
-}
+    .form-topbar img {
+        padding: 0;
+        width: 100%;
+        height: 700px;
+        margin-bottom: 20px;
+    }
 
-.form-topbar{
-    position: relative;
-}
+    .form-content {
+        position: relative;
+        display: flex;
+    }
 
-.form-topbar h1{
-    text-align: center;
-     color: darkred;
-}
-.form-topbar h2{
-    text-align: center;
-     color: darkred;
-}
+    #navigation_table-div {
+        margin-right: 100px;
+        width: 350px;
+        position: relative
+    }
 
+    #navigation_table-body {
+        text-align: center;
+    }
 
-.form-topbar img{
-   padding:0; width: 100%; height:700px; margin-bottom: 20px;
-}
+    #navigation_table-foot {
+        text-align: center;
+    }
 
-.form-content{
-    position: relative; display:flex;
-}
+    .form-nav-table-hr {
+        border: 1px solid #000;
+        margin: 0;
+        width: 100%;
+    }
 
-#navigation_table-div{
-    margin-right: 100px; width: 350px; position: relative
-}
+    .form-main-content {
+        position: static;
+        flex-grow: 1;
+        background-color: #0CE;
+    }
 
-#navigation_table-body{
-    text-align: center;
-}
+    #order_form_div {
+        width: 50%;
+        margin: auto;
+    }
 
-#navigation_table-foot {
-    text-align: center;
-}
+    .table-font {
+        font-weight: bold;
+        font-style: italic;
+        font-variant: normal;
+        font-size: 20px;
+        line-height: 10pt;
+        font-family: Arial;
+    }
 
-.form-nav-table-hr{
-    border: 1px solid #000; margin: 0; width: 100%;
-}
+    .table-font :hover {
+        background-color: #0CE;
+    }
 
-.form-main-content{
-    position: static; flex-grow:1; background-color: #0CE;
-}
+    .table-font p {
+        color: black;
+    }
 
-#order_form_div {
-    width: 50%; margin: auto;
-}
+    .table-font-bordered {
+        border-style: solid;
+        border-width: 2px;
+        border-color: black;
 
-
-.table-font{
-    font-weight: bold;
-    font-style: italic;
-    font-variant: normal;
-    font-size: 20px;
-    line-height: 10pt;
-    font-family: Arial;
-}
-
-.table-font :hover{
-    background-color: #0CE; 
-}
-
-.table-font p{
-  color: black;
-}
-
-.table-font-bordered{
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-
-}
+    }
 
 }
